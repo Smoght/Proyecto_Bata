@@ -88,13 +88,12 @@ main{
     background-color: #FAF8F7;
 }
 .main-exchange-container{
-    position: absolute;
-    display: block;
     width: 100%;
     height: auto;
     padding-top: 80px;
     padding-bottom: 30px;
     text-align: center;
+       
 }
 .main-exchange-container .background-image{
     width: 195px;
@@ -216,7 +215,105 @@ main{
     width: 100%;
     min-width: 288px;
     height: auto;
-    color: whitesmoke;
+    padding: 20px 10px;
+    color: #fff;
+    position: relative;
+    
+
+}
+ .main-product-logo{
     position: absolute;
-    display: block;
+    width: 41px;
+    height: 25px;
+    background-image: url("../assets/icons/batata.svg");
+    top:-10px;
+    left: calc(50% - 20px);
+
+} 
+.main-product-detail .main-product-title{
+    width: 90%;
+    max-width: 900px;
+    min-width: 288px;
+    margin: 0 auto;
+    margin-top: 64px;
+    text-align: center;
+}
+.main-product-detail .main-product-title h2{
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: 700;
+}
+.main-product-detail .main-product-title p{
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: #808080;
+    margin-top: 15px;
+}
+.main-product-cards{
+    width: 90%;
+    max-width: 400px;
+    min-width: 288px;
+    height: 150px;
+    margin: 15px auto;
+    margin-top: 34px;
+    background-color: var(--secondary-black);
+    padding: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+}
+
+.main-product-cards h2{
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    font-style: normal;
+    margin-top: 12px;
+}
+.main-product-cards p{
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.8rem;
+    margin-top: 10px;
+}
+.main-product-time span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../assets/icons/clock.svg);
+}
+.main-product-tasas span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../assets/icons/eye.svg);
+}
+.main-product-coins span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../assets/icons/dollar-sign.svg);
+}
+.main-product-information span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-image: url(../assets/icons/check-circle.svg);
+}
+.main-conocelo-container{
+    width: 100%;
+    min-width: 320px;
+    height: 80vh;
+    background-image: url(../assets/img/bitcoinbaby2x.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.main-conocelo-container h2{
+    text-align: center;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: bold;
+    color: #fff;
+    padding-top: 60px;
 }
