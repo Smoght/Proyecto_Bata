@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href=“https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&display=swap” rel=“stylesheet”>
     <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 930px)">
     <title>Bata Bit</title>
 </head>
 <body>
@@ -60,7 +61,7 @@
                 <h2>Creamos un producto sin comparación.</h2>
                 <p>Confiable y diseñado para su uso diario.</p>
             </div>
-            <section class="">
+            <section class="main-product-cards-conatiner">
                 <div class="main-product-time main-product-cards">
                     <span></span>
                     <h2>Tiempo real</h2>
@@ -87,10 +88,52 @@
         <section class="main-conocelo-container">
             <h2>Conócelo hoy.</h2>
         </section>
-        <section></section>
+
+        <section class="main-plans-container">
+            <div class="plans-title-container">
+                <h2>Escoge el plan que mejor se ajuste a ti.</h2>   
+                <p>Cualquier plan te da acceso completo a nuestra plataforma.</p>
+            </div>
+            <section class="plans-container--slider">
+                <article class="plans-container-card">
+                    <div class="plans-container-information">
+                        <h3>Pago semestral</h3>
+                        <p class="plans-price"><span>$</span>99</p>
+                        <p class="plans-saving">*Ahorras $129 comparado al plan mensual.</p>
+                        <button>Escoger este <span class="right-arrow"></span></button>
+                    </div>
+                </article>
+                <article class="plans-container-card">
+                    <p class="recomendado">Recomendado</p>
+                    <div class="plans-container-information">
+                        <h3>Pago anual</h3>
+                        <p class="plans-price"><span>$</span>99</p>
+                        <p class="plans-saving">*Ahorras $129 comparado al plan mensual.</p>
+                        <button>Escoger este <span class="right-arrow"></span></button>
+                    </div>
+                </article>
+                <article class="plans-container-card">
+                    <div class="plans-container-information">
+                        <h3>Pago mensual</h3>
+                        <p class="plans-price"><span>$</span>99</p>
+                        <p class="plans-saving">*Ahorras $129 comparado al plan mensual.</p>
+                        <button>Escoger este <span class="right-arrow"></span></button>
+                    </div>
+                </article>
+            </section>
+        </section>
     </main>
     <footer>
-
+        <section class="container-left">
+            <ul>
+                <li><a href="#"> Linkein</a></li>
+                <li><a href="#">Crunchbase</a></li>
+                <li><a href="#">Hakernews</a></li>
+            </ul>
+        </section>
+        <section class="container-right">
+            <img src="./assets/img/logo-footer.svg" alt="">
+        </section>
     </footer>
     
 </body>
